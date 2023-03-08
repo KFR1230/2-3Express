@@ -1,0 +1,39 @@
+.container {
+  height: 500px;
+  padding: 20px;
+  border: 1px solid #4a4a4a;
+  margin: 20px 10px;
+}
+
+a {
+  display: block;
+  height: 30px;
+  width: 100px;
+  border-radius: 5%;
+  background-color: cornflowerblue;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+}
+
+.btn-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.home-btn {
+  grid-column: 1/2;
+}
+
+.about-btn {
+  grid-column: 3/4;
+}
+
+.protfolio-btn {
+  grid-column: 4/5;
+}
+
+.contact-btn {
+  grid-column: 5/6;
+}
